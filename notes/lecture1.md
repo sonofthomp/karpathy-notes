@@ -26,4 +26,4 @@ print(f'{a.grad:.4f}') # prints 138.8338, i.e. the numerical value of dg/da
 print(f'{b.grad:.4f}') # prints 645.5773, i.e. the numerical value of dg/db
 ```
 
-- From this code, micrograd builds an expression tree of this entire operation, and can do backpropagation super easily (calculating the $$)
+- From this code, micrograd builds an expression tree of this entire operation, and can do backpropagation super easily (calculating $\frac{dg}{da}$ and $\frac{dg}{db}$)
